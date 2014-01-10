@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 public class FragmentMainLogin extends Fragment {
-//PUSHHHH
+
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
