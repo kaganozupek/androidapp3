@@ -1,0 +1,9 @@
+INDEX VERSION 1.126+E:\SNITCH!\.metadata\.plugins\org.eclipse.jdt.core
+1945609499.index
+338478252.index
+3515282563.index
+2229502280.index
+3363826470.index
+1039110645.index
+861671833.index
+4144675614.index

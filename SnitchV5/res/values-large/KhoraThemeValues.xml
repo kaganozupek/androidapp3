@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="khora_actionbar_title_text_size">25dp</dimen>
+    <color name="khora_action_bar_color">#467FD7</color>
+    <color name="khora_action_bar_text_color">#FFFFFF</color>
+    
+    
+</resources>
