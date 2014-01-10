@@ -119,8 +119,4 @@
         android:layout_alignRight="@+id/layout_facebook_button"
         android:text="ToggleButton" />
 
-    <com.khora.snitch.ViewCustonToggle
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
 </RelativeLayout>
