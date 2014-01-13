@@ -69,12 +69,13 @@
             android:paddingLeft="4dp" />
 
         <Button
-            android:id="@+id/Button02"
+            android:id="@+id/btnSubmitEmail"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:background="#E2E2E2"
+            
             android:text="E-posta ile kaydol"
             android:textColor="#666666"
             android:textSize="20dp" />
@@ -107,24 +108,5 @@
             android:text="Şimdi Giriş Yap" />
 
     </LinearLayout>
-
-   	 
-
-    <ToggleButton
-        android:soundEffectsEnabled="true"
-        android:id="@+id/toggleButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/checkBox1"
-        android:layout_alignRight="@+id/layout_facebook_button"
-        android:text="ToggleButton" />
-
-    <com.khora.snitch.ViewCustonToggle
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked ="true"
-        android:layout_below="@+id/toggleButton1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="110dp" />
 
 </RelativeLayout>

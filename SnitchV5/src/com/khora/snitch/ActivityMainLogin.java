@@ -28,6 +28,8 @@ public class ActivityMainLogin extends ActionBarActivity {
 		Button ActionBarDrawerButton = (Button) findViewById(R.id.btnOpenDrawer);
 		ActionBarDrawerButton.setVisibility(Button.GONE);
 		System.out.println("");
+		
+													
 
 	}
 
