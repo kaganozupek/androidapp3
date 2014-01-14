@@ -15,7 +15,7 @@
         android:src="@drawable/default_male_avatar" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/etNameSurname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivAvatar"

@@ -51,6 +51,18 @@
         android:text="Geri"
         android:textColor="@color/White"
         android:visibility="gone" />
+     <Button
+        android:id="@+id/btnFinishForSubmitEmailNextFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/tvActionbarTitle"
+        
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_round_gray"
+        android:onClick="btnFinishPressedForSubmitEmailFragment"
+        android:text="Bitti"
+        android:textColor="@color/White"
+        android:visibility="gone" />
 
    
 
