@@ -32,9 +32,10 @@ public class ActivitySubmitEmail extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_submit_email);
 		getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 		getSupportActionBar().setCustomView(R.layout.abs_layout);
+		setContentView(R.layout.activity_submit_email);
+		
 		// Navigation Drawer Settings
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.layout_navigation_drawer);
 		drawerLayout = (FrameLayout) findViewById(R.id.left_drawer);

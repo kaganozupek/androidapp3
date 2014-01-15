@@ -28,7 +28,7 @@ public class FragmentSubmitEmailNext extends Fragment {
 			Bundle savedInstanceState) {
 		View fragmentView = inflater.inflate(R.layout.fragment_submit_email_next, container,false);
 		//View Implementations
-		 Email = (EditText) fragmentView.findViewById(R.id.etMail);
+		 Email = (EditText) fragmentView.findViewById(R.id.etMail2);
 		 Password = (EditText) fragmentView.findViewById(R.id.etPassword);
 		 PhoneNumber = (EditText) fragmentView.findViewById(R.id.etPhoneNumber);
 		

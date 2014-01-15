@@ -11,6 +11,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.webkit.WebView.FindListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class FragmentMainLogin extends Fragment implements View.OnClickListener {
 
@@ -23,11 +24,11 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
 
 		// VIew implementations
 		Button btnSubmitMail = (Button) v.findViewById(R.id.btnSubmitEmail);
-
+		TextView tvLoginMail = (TextView)v.findViewById(R.id.tvLoginMail);
 		// View setClick listeners
 
 		btnSubmitMail.setOnClickListener(this);
-
+		tvLoginMail.setOnClickListener(this);
 		return v;
 
 	}
@@ -38,18 +39,20 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
 		int idView = v.getId();
 
 		switch (idView) {
-			case R.id.btnSubmitEmail: {
-				
-				Intent i = new Intent(getActivity(),ActivitySubmitEmail.class);
-				startActivity(i);
-				
-				
-				
-				break;
+		case R.id.btnSubmitEmail: {
+
+			Intent i = new Intent(getActivity(), ActivitySubmitEmail.class);
+			startActivity(i);
+
+			break;
+		}
+		case R.id.tvLoginMail: {
+			Intent i = new Intent(getActivity(),ActivityLoginMail.class);
+			startActivity(i);
+			break;
 		}
 
 		}
 
 	}
-
 }

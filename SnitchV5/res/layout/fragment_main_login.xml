@@ -98,7 +98,7 @@
             android:text="Zaten bir hesabın var mı?" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tvLoginMail"
             android:layout_marginLeft="10dp"
             android:textColor="@color/khora_action_bar_color"
             android:layout_width="wrap_content"
