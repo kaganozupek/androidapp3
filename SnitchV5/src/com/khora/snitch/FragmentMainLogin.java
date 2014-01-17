@@ -47,9 +47,7 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
 			break;
 		}
 		case R.id.tvLoginMail: {
-			Intent i = new Intent(getActivity(),ActivityLoginMail.class);
-			startActivity(i);
-			break;
+			
 		}
 
 		}

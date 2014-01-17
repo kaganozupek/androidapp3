@@ -74,13 +74,13 @@ public class GeneralStaticFunctions {
 			String resultString = convertStreamToString(stream);
 			GsonBuilder gsonb = new GsonBuilder();
 			Gson gson = gsonb.create();
-			ModelUser user = gson.fromJson(resultString, ModelUser.class);
+			//ModelUser user = gson.fromJson(resultString, ModelUser.class);
 
 		
-			String jsonObject = gson.toJson(user);
+			//String jsonObject = gson.toJson(user);
 		
 			
-			resultBnd.putString("LoggedUser", jsonObject);
+			//resultBnd.putString("LoggedUser", jsonObject);
 			resultBnd.putString("resultCode", "SUCCESS");
 		
 
